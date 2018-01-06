@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Tang & Associate Law Office</title>
-  
-  
-  
-      <style>
-      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      @import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300";
+@import "https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300";
 * {
   box-sizing: border-box;
 }
@@ -114,38 +104,3 @@ p {
     transform: scale(0.5) rotateY(-180deg) translateZ(1px);
   }
 }
-
-    </style>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-
-</head>
-
-<body>
-  <!-- The front is based on of my SVG link hover effect http://codepen.io/Zeaklous/pen/kyGqm -->
-
-<div class="container">
-  <div class="card">
-    
-    <div class="front side">
-      <h1 class="logo">Tang & Associate Law Office</h1>
-    </div>
-    
-    <div class="back side">
-      <h3 class="name">Patrick Tang</h3>
-      <div>Attorney at Law</div>      
-      <div class="info">
-        <p><span class="property">Email: </span>ptang@tnalawoffice.com</p>
-        <p><span class="property">Address: </span>4802 N. Broadway Street, Suite 201B, Chicago, Illinois 60640</p>
-        <p><span class="property">Phone: </span>(123) 456-7890</p>
-        <p><span class="property">Fax: </span>(773) 944-0478</p>
-      </div>
-    </div>
-    
-  </div>
-</div>
-  
-    <script src="js/index.js"></script>
-
-</body>
-</html>
